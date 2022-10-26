@@ -2,8 +2,7 @@
 @extends('plantilla')
 
 @section('contenido')
-{{-- El if se encarga de jalar el mensaje de una forma no tan formal y con algo 
-    dinamico --}}
+
     @if (session()->has('echo'))
     {!!"<script> Swal.fire(
         'Perfecto, Recordatorio anotado!',
@@ -33,7 +32,7 @@
             </div>
 
             <div class="card-body">
-                <form class="mb-2" method="POST" action="{{route('Recordatorios.procesarRecordatorio')}}">
+                <form class="mb-2" method="POST" action="{{route('Recordatorios.UsaRecordatorio')}}">
                     @csrf 
                     
 
