@@ -8,18 +8,18 @@ use Illuminate\Http\Request;
 class controladorVista extends Controller
 {
     //
-    public function procesarRecordatorio(validarRecordatorio $req){
+    public function UsaRecordatorio(validarRecordatorio $req){
         return redirect('Registro')->with('echo','Se guardo Correcto');
 
 
     }
 
-    public function showIngresar(){
+    public function verIngresar(){
         return view('registro');
         
     }
 
-    public function showRecordatorios(){
+    public function verRecordatorios(){
 
         return view('recordatorios');
     }

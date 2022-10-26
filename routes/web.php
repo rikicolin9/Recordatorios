@@ -23,6 +23,6 @@ route::view('Registro','registro')->name('registro');
 route::view('Recordatorio','recordatorio')->name('recordatorio');
 
 
-Route::post('Recordatorios', [controladorVista::class,'procesarRecordatorio'
-])->name('Recordatorios.procesarRecordatorio');
+Route::post('Recordatorios', [controladorVista::class,'UsaRecordatorio'
+])->name('Recordatorios.UsaRecordatorio');
 
