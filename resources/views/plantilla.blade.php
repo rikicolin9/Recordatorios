@@ -21,12 +21,6 @@
 <nav>
   <ul class="nav nav-tabs">
     <li class="nav-item">
-      <a class="nav-link {{request()->routeIs('index')? 'text-primary fw-bold':''}}" href="{{route('index')}}">MIS RECORDATORIOS</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link {{request()->routeIs('index')? 'text-primary fw-bold':''}}" href="{{route('index')}}">Inicio <span class="sr-only"></span></a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link {{request()->routeIs('registro')? 'text-danger fw-bold':''}}" href="{{route('registro')}}">Registrar Recordatorios</a>
     </li>
     <li class="nav-item">

@@ -16,10 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('recordatorio');
 });
 
-route::view('index','index')->name('index');
 route::view('Registro','registro')->name('registro');
 route::view('Recordatorio','recordatorio')->name('recordatorio');
 

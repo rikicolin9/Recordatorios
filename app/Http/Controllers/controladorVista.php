@@ -14,16 +14,6 @@ class controladorVista extends Controller
 
     }
 
-    public function showWelcome(){
-        return view('welcome');
-
-    }
-
-    public function showInicio(){
-        return view('inicio');
-
-    }
-
     public function showIngresar(){
         return view('registro');
         
